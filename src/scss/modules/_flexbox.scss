@@ -1,0 +1,55 @@
+.flexbox {
+  width: 790px;
+  height: 750px;
+  border: solid 2px black;
+}
+
+.flex-container {
+  width: 100%;
+  height: 750;
+}
+
+.ex-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ex-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ex-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ex-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+.ex-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.box .grow-1 {
+  flex-grow: 1;
+}
+.box .grow-1 {
+  flex-grow: 2;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
