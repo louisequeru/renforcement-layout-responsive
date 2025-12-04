@@ -7,7 +7,36 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="container easy">
+      <h1>Easy</h1>
+      <div class="row">
+        <div class="col-6 col-md-9 col-lg-6">box 1</div>
+        <div class="col-6 col-md-3 col-lg-6">box 2</div>
+        <div class="col-8 col-md-4 col-lg-6">box 3</div>
+      </div>
+    </div>
+
+    <div class="container medium">
+      <h1>Medium</h1>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">box 1</div>
+        <div class="col-6 offset-3 offset-md-0">box 2</div>
+        <div class="col-12 col-lg-10">box 3</div>
+      </div>
+    </div>
+
+    <div class="container advanced">
+      <h1>Advanced</h1>
+      <div class="row">
+        <div class="col-12 col-md-9 offset-md-3">box 1</div>
+        <div class="col-12 col-md-6 col-lg-3">box 2</div>
+        <div class="col-6 col-md-3">box 3</div>
+        <div class="col-6 col-md-3">box 4</div>
+        <div class="col-6 col-md-3 offset-md-6 offset-lg-0">box 5</div>
+        <div class="col-6 col-md-3 offset-lg-3">box 6</div>
+        <div class="col-6 col-md-3 offset-md-6 offset-lg-0">box 7</div>
+      </div>
+    </div>
 
     <script src="js/main.js" type="module"></script>
   </body>
